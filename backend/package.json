@@ -1,8 +1,9 @@
 {
   "name": "quran-api",
   "version": "1.0.0",
-  "description": "Simple Quran pages API",
-  "main": "server.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "start": "node server.js"
   },

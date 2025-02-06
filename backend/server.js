@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // CORS ayarları
 app.use(cors({
@@ -12,7 +12,7 @@ app.use(cors({
     methods: ['GET', 'POST', 'OPTIONS'], // İzin verilen HTTP metodları
     allowedHeaders: ['Content-Type', 'Authorization'], // İzin verilen headerlar
     credentials: true, // Credentials'a izin ver
-    optionsSuccessStatus: 200 // OPTIONS istekleri için 200 döndür
+    //optionsSuccessStatus: 200 // OPTIONS istekleri için 200 döndür
 }));
 
 // Statik dosyalar için pages klasörünü kullan
@@ -261,25 +261,12 @@ app.get('/api/verse-timings/:surahNumber', (req, res) => {
     });
 });
 
-// API durumunu kontrol et
+// API durumu endpoint'i
 app.get('/api/status', (req, res) => {
-    const pagesDir = path.join(__dirname, 'pages');
-    let totalPages = 0;
-    
-    try {
-        const files = fs.readdirSync(pagesDir);
-        totalPages = files.filter(file => 
-            SUPPORTED_FORMATS.includes(path.extname(file).toLowerCase())
-        ).length;
-    } catch (error) {
-        console.error('Klasör okuma hatası:', error);
-    }
-
     res.json({
         status: 'active',
-        totalPages: totalPages,
         version: '1.0.0',
-        supportedFormats: SUPPORTED_FORMATS
+        timestamp: new Date().toISOString()
     });
 });
 
