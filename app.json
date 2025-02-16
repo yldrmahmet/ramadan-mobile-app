@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Ramazan Rehberi",
+    "slug": "ramazan-rehberi",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "assetBundlePatterns": ["**/*"],
+    "icon": "./assets/acilis-ekrani.png",
+    "splash": {
+      "image": "./assets/acilis-ekrani.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2E7D32"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Ramazan.2025.iftar.sahur"
+    },
+    "android": {
+      "package": "com.ramazanrehberi.ilk.test",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/acilis-ekrani.png",
+        "backgroundColor": "#2E7D32",
+        "networkSecurityConfig": {
+          "enableCleartextTraffic": true
+        }
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"
+      },
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a514ad0b-5287-4618-96a7-74833bc4d23a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "owner": "yldrmahmet",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Konum iznine gerek yoktur, izin vermek istemiyorsanız sizi şehir seçme ekranına yönlendireceğiz."
+        }
+      ]
+    ]
+  }
+}
