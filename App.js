@@ -188,7 +188,7 @@ export default function App() {
         return <QiblaScreen onBack={() => setCurrentScreen("home")} />;
       case "Dualar":
         return <PrayersScreen onBack={() => setCurrentScreen("home")} />;
-      case "Hadis-i Şerif":
+      case "Hadis":
         return <HadithScreen onBack={() => setCurrentScreen("home")} />;
       default:
         return null;
