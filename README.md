@@ -62,8 +62,6 @@ Bu uygulama, Müslümanların günlük ibadet ve dini ihtiyaçlarını karşıla
 - Özel gün duaları
 - Türkçe okunuşlar ve mealler
 
-## 📸 Ekran Görüntüleri (eklenecek)
-
 ## 📸 Ekran Görüntüleri
 
 <table>
