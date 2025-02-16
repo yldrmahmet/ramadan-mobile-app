@@ -4,63 +4,90 @@ Bu uygulama, Müslümanların günlük ibadet ve dini ihtiyaçlarını karşıla
 
 ## 🌟 Özellikler
 
-### 📱 Ana Ekran
-
-- Güncel namaz vakitleri gösterimi
-- Bulunulan konuma göre otomatik vakit hesaplama
-- Bir sonraki namaz vaktine kalan süre
-- Hicri ve Miladi tarih gösterimi
-
-### 🕌 Namaz Vakitleri
-
-- Şehre özel namaz vakitleri
-- İmsak, Güneş, Öğle, İkindi, Akşam ve Yatsı vakitleri
-- Vakitlere özel bildirimler (eklenecek)
-- Konum bazlı otomatik şehir seçimi
-
-### 📖 Kuran-ı Kerim
-
-- Tam Kuran-ı Kerim metni
-- Türkçe meal
-- Sesli Kuran dinleme
-- Farklı hafızlardan dinleme seçeneği
-- Sure arama ve filtreleme (eklenecek)
-- Ayet işaretleme ve kaydetme (eklenecek)
-
-### 🎧 Sesli Kuran Özellikleri
-
-- Ayet ayet dinleme
-- Tüm sureyi dinleme
-- Dinlerken otomatik ayet takibi
-- Üç farklı hafız seçeneği
-
-### 🧭 Kıble Bulucu
-
-- Gerçek zamanlı kıble yönü
-- GPS ve pusula entegrasyonu
-- Hassas açı gösterimi
-- Kullanıcı dostu arayüz
-
-### 📅 İmsakiye
-
-- Ramazan imsakiye tablosu
-- Günlük iftar ve imsak vakitleri
-- Takvim görünümü
-- Şehre özel vakitler
-
-### 📚 Hadis Bölümü
-
-- Günlük hadis gösterimi
-- Kategorilere göre hadisler
-- Hadis kaynağı ve senet bilgisi
-- Arama ve filtreleme özellikleri (eklenecek)
-
-### 🤲 Dua Bölümü
-
-- Günlük dualar
-- Namaz duaları
-- Özel gün duaları
-- Türkçe okunuşlar ve mealler
+<table>
+ <tr>
+   <td width="50%">
+     <h3>📱 Ana Ekran</h3>
+     <ul>
+       <li>Güncel namaz vakitleri gösterimi</li>
+       <li>Bulunulan konuma göre otomatik vakit hesaplama</li>
+       <li>Bir sonraki namaz vaktine kalan süre</li>
+       <li>Hicri ve Miladi tarih gösterimi</li>
+     </ul>
+   </td>
+   <td width="50%">
+     <h3>🕌 Namaz Vakitleri</h3>
+     <ul>
+       <li>Şehre özel namaz vakitleri</li>
+       <li>İmsak, Güneş, Öğle, İkindi, Akşam ve Yatsı vakitleri</li>
+       <li>Vakitlere özel bildirimler (eklenecek)</li>
+       <li>Konum bazlı otomatik şehir seçimi</li>
+     </ul>
+   </td>
+ </tr>
+ <tr>
+   <td>
+     <h3>📖 Kuran-ı Kerim</h3>
+     <ul>
+       <li>Tam Kuran-ı Kerim metni</li>
+       <li>Türkçe meal</li>
+       <li>Sesli Kuran dinleme</li>
+       <li>Farklı hafızlardan dinleme seçeneği</li>
+       <li>Sure arama ve filtreleme (eklenecek)</li>
+       <li>Ayet işaretleme ve kaydetme (eklenecek)</li>
+     </ul>
+   </td>
+   <td>
+     <h3>🎧 Sesli Kuran Özellikleri</h3>
+     <ul>
+       <li>Ayet ayet dinleme</li>
+       <li>Tüm sureyi dinleme</li>
+       <li>Dinlerken otomatik ayet takibi</li>
+       <li>Üç farklı hafız seçeneği</li>
+     </ul>
+   </td>
+ </tr>
+ <tr>
+   <td>
+     <h3>🧭 Kıble Bulucu</h3>
+     <ul>
+       <li>Gerçek zamanlı kıble yönü</li>
+       <li>GPS ve pusula entegrasyonu</li>
+       <li>Hassas açı gösterimi</li>
+       <li>Kullanıcı dostu arayüz</li>
+     </ul>
+   </td>
+   <td>
+     <h3>📅 İmsakiye</h3>
+     <ul>
+       <li>Ramazan imsakiye tablosu</li>
+       <li>Günlük iftar ve imsak vakitleri</li>
+       <li>Takvim görünümü</li>
+       <li>Şehre özel vakitler</li>
+     </ul>
+   </td>
+ </tr>
+ <tr>
+   <td>
+     <h3>📚 Hadis Bölümü</h3>
+     <ul>
+       <li>Günlük hadis gösterimi</li>
+       <li>Kategorilere göre hadisler</li>
+       <li>Hadis kaynağı ve senet bilgisi</li>
+       <li>Arama ve filtreleme özellikleri (eklenecek)</li>
+     </ul>
+   </td>
+   <td>
+     <h3>🤲 Dua Bölümü</h3>
+     <ul>
+       <li>Günlük dualar</li>
+       <li>Namaz duaları</li>
+       <li>Özel gün duaları</li>
+       <li>Türkçe okunuşlar ve mealler</li>
+     </ul>
+   </td>
+ </tr>
+</table>
 
 ## 📸 Ekran Görüntüleri
 
