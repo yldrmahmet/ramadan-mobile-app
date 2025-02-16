@@ -5,18 +5,21 @@ Bu uygulama, Müslümanların günlük ibadet ve dini ihtiyaçlarını karşıla
 ## 🌟 Özellikler
 
 ### 📱 Ana Ekran
+
 - Güncel namaz vakitleri gösterimi
 - Bulunulan konuma göre otomatik vakit hesaplama
 - Bir sonraki namaz vaktine kalan süre
 - Hicri ve Miladi tarih gösterimi
 
 ### 🕌 Namaz Vakitleri
+
 - Şehre özel namaz vakitleri
 - İmsak, Güneş, Öğle, İkindi, Akşam ve Yatsı vakitleri
 - Vakitlere özel bildirimler (eklenecek)
 - Konum bazlı otomatik şehir seçimi
 
 ### 📖 Kuran-ı Kerim
+
 - Tam Kuran-ı Kerim metni
 - Türkçe meal
 - Sesli Kuran dinleme
@@ -25,30 +28,35 @@ Bu uygulama, Müslümanların günlük ibadet ve dini ihtiyaçlarını karşıla
 - Ayet işaretleme ve kaydetme (eklenecek)
 
 ### 🎧 Sesli Kuran Özellikleri
+
 - Ayet ayet dinleme
 - Tüm sureyi dinleme
 - Dinlerken otomatik ayet takibi
 - Üç farklı hafız seçeneği
 
 ### 🧭 Kıble Bulucu
+
 - Gerçek zamanlı kıble yönü
 - GPS ve pusula entegrasyonu
 - Hassas açı gösterimi
 - Kullanıcı dostu arayüz
 
 ### 📅 İmsakiye
+
 - Ramazan imsakiye tablosu
 - Günlük iftar ve imsak vakitleri
 - Takvim görünümü
 - Şehre özel vakitler
 
 ### 📚 Hadis Bölümü
+
 - Günlük hadis gösterimi
 - Kategorilere göre hadisler
 - Hadis kaynağı ve senet bilgisi
 - Arama ve filtreleme özellikleri (eklenecek)
 
 ### 🤲 Dua Bölümü
+
 - Günlük dualar
 - Namaz duaları
 - Özel gün duaları
@@ -56,27 +64,37 @@ Bu uygulama, Müslümanların günlük ibadet ve dini ihtiyaçlarını karşıla
 
 ## 📸 Ekran Görüntüleri (eklenecek)
 
-### Ana Ekran
-<img src="./assets/ss/ana.jpeg" width="300" alt="Ana Ekran">
+## 📸 Ekran Görüntüleri
 
-### Kuran-ı Kerim
-<img src="./assets/ss/kuran.jpeg" width="300" alt="Ana Ekran">
+<table>
+  <tr>
+    <td><img src="./assets/ss/ana.jpeg" width="270" alt="Ana Ekran"></td>
+    <td><img src="./assets/ss/kuran.jpeg" width="270" alt="Kuran"></td>
+    <td><img src="./assets/ss/kible.jpeg" width="270" alt="Kible"></td>
+  </tr>
+  <tr>
+    <td>Ana Ekran</td>
+    <td>Kuran</td>
+    <td>Kıble</td>
+  </tr>
+  <tr>
+    <td><img src="./assets/ss/hadis1.jpeg" width="300" alt="hadis1"></td>
+    <td><img src="./assets/ss/hadis2.jpeg" width="300" alt="hadis2"></td>
+    <td><img src="./assets/ss/dua.jpeg" width="300" alt="dua"></td>
+  </tr>
+  <tr>
+    <td>Size Özel Hadis</td>
+    <td>Diğer hadisler</td>
+    <td>Dualar</td>
+  </tr>
+</table>
 
-### Kıble Bulucu
-<img src="./assets/ss/kible.jpeg" width="300" alt="Ana Ekran">
 
-### Hadis
-<img src="./assets/ss/hadis1.jpeg" width="300" alt="Ana Ekran">
-<img src="./assets/ss/hadis2.jpeg" width="300" alt="Ana Ekran">
-
-### Dua
-<img src="./assets/ss/dua.jpeg" width="300" alt="Ana Ekran">
-
-### İmsakiye (eklenecek)
 
 ## 🚀 Kurulum
 
 ### Gereksinimler
+
 - Node.js (v14 veya üzeri)
 - npm veya yarn
 - Expo CLI
@@ -85,15 +103,18 @@ Bu uygulama, Müslümanların günlük ibadet ve dini ihtiyaçlarını karşıla
 ### Kurulum Adımları
 
 1. Node.js'i yükleyin:
+
    - [Node.js resmi sitesinden](https://nodejs.org/) indirin ve kurun
 
 2. Repo'yu klonlayın:
+
 ```bash
 git clone https://github.com/[kullanıcı-adı]/[repo-adı].git
 cd [repo-adı]
 ```
 
 3. Bağımlılıkları yükleyin:
+
 ```bash
 npm install
 # veya
@@ -101,6 +122,7 @@ yarn install
 ```
 
 4. Uygulamayı başlatın:
+
 ```bash
 npx expo start
 ```
